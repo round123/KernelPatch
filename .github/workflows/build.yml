@@ -1,4 +1,4 @@
-name: Build CI
+name: Build KPM
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: ["main"]
 
 jobs:
-  Build-kpimg:
+  Build-kpm:
     runs-on: ubuntu-latest
     permissions:
       contents: write
