@@ -50,7 +50,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.parse_version.outputs.VERSION }}
           artifacts: |
-            kpm-demo/inlinehook
+            kpm-demo/inlinehook/inlinehook.kpm
             
           generateReleaseNotes: true
           allowUpdates: true
