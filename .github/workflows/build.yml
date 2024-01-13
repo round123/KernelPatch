@@ -2,9 +2,9 @@ name: Build KPM
 
 on:
   push:
-    branches: ["main"]
+    branches: ["kpm"]
   pull_request:
-    branches: ["main"]
+    branches: ["kpm"]
 
 jobs:
   Build-kpm:
